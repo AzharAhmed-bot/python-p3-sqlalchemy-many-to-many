@@ -46,7 +46,7 @@ if __name__ == '__main__':
             review = Review(
                 score=random.randint(0, 10),
                 comment=fake.sentence(),
-                game_id=game.id,
+                game_id=game.id
             )
 
             reviews.append(review)
